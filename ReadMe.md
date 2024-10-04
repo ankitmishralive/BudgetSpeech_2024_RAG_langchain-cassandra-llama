@@ -12,10 +12,10 @@ The Indian Government Budget Speech 2024 encompasses extensive information acros
 
 ## Tech Stack
 
-- **Python**: For backend development.
+- **Python**, **Langchain**
 - **Cassandra**: NoSQL database for storing vector embeddings.
 - **Ollama Embeddings**: For converting text chunks into vectors.
-- **LLama 3**: The latest language model for generating human-like responses based on retrieved sections.
+- **LLama 3**
 
 ## System Architecture
 
@@ -32,14 +32,14 @@ The high-level architecture of the system is as follows:
 ### Prerequisites
 
 1. **Cassandra**: Set up a Cassandra database at https://astra.datastax.com/
-2. **Python 3.10+**: Make sure you have Python installed.
+2. **Python 3.10 or 3.10+**: Make sure you have Python installed.
 
 ### Steps to Run the Project
 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-repo-name/indian-budget-pdf-query.git
+   git clone https://github.com/ankitmishralive/BudgetSpeech_2024_RAGusing_langchain-cassandra-llama
    cd indian-budget-pdf-query
 
 ### Key Addition:
